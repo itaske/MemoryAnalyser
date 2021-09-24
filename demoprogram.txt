@@ -1,0 +1,9 @@
+0
+x = newmemory(5)
+y = newmemory(10)
+z = newmemory(1)
+realloc(y,7)
+free(x)
+y = newmemory(20)
+realloc(z,3)
+y = null
